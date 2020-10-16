@@ -8,6 +8,7 @@ RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
  && curl -L -H "Cache-Control: no-cache" -o ssr.zip https://github.com/ShadowsocksR-Live/shadowsocksr-native/releases/latest/download/ssr-native-linux-x64.zip \
  && unzip ssr.zip -d /ssrbin ssr-server config.json\
  && chmod +xrw /ssrbin/ssr-server \
+ && mv /ssrbin/ssr-server /ssrbin/ssrserver \
  && chmod -x+rw /ssrbin/config.json \
  && rm -rf ssr.zip
 
