@@ -1,6 +1,4 @@
-cd /v2raybin
-
-cat > config.json <<EOF
+cat > /v2raybin/config.json <<EOF
 {
     "log": {
         "access": "",
@@ -30,4 +28,4 @@ cat > config.json <<EOF
 }
 EOF
 
-./v2ray
+/v2raybin/v2ray
