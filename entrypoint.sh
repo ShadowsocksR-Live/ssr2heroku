@@ -27,7 +27,7 @@ cat > /ssrbin/config.json <<EOF
     "over_tls_settings": {
         "enable": true,
         "server_domain": "${APP_SITE}",
-        "path": "/${UUID}/",
+        "path": "/${SECRET_PATH}/",
         "root_cert_file": ""
     }
 }

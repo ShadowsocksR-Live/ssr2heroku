@@ -9,7 +9,7 @@
 
 ## config.json
 
-部署完毕，将以下文件中的 `${PASSWORD}` 和两个 `${APP_SITE}` 和 `${UUID}` 替换成你的值就可以用于客户端了。
+部署完毕，将以下文件中的 `${PASSWORD}` 和两个 `${APP_SITE}` 和 `${SECRET_PATH}` 替换成你的值就可以用于客户端了。
 
 ```json
 {
@@ -40,7 +40,7 @@
     "over_tls_settings": {
         "enable": true,
         "server_domain": "${APP_SITE}",
-        "path": "/${UUID}/",
+        "path": "/${SECRET_PATH}/",
         "root_cert_file": ""
     }
 }

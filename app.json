@@ -1,10 +1,10 @@
 {
   "name": "SSR2HeroKu",
-  "description": "deploy sample to Heroku.",
+  "description": "Deploy SSRoT to Heroku.",
   "keywords": ["node","js","Docker"],
   "env": {
     "APP_SITE": {
-      "description": "App 站点名称，格式如下示范值。请一定填写正确，不能啥都不填，因为示范值 YourAppName 是不能用的。",
+      "description": "App 站点名称，格式如下示范值。请一定填写正确，不能啥都不填，因为示范值 YourAppName 是无效的。",
       "value": "YourAppName.herokuapp.com"
     },
 
@@ -13,7 +13,7 @@
       "value": "13955112-79c5-4aae-ac01-aabec4c963aa"
     },
 
-    "UUID": {
+    "SECRET_PATH": {
       "description": "随机 URL 路径, 请使用 uuidgenerator.net 生成一个新的 UUID 替换当前这个, 否则 GFW 很快会封了这服务端.",
       "value": "9ccbb338-2c45-4751-b767-8ba83a1e5624"
     }
