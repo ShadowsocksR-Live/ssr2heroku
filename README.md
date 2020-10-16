@@ -4,7 +4,7 @@
 
 在 heroku 网站上注册账号，登录，一切就绪以后，点下图链接，按照提示输入各值，点击下部的 `Deploy app` 按钮就部署在 heroku 的 docker 容器上了。
 
-[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/ssrlive/examples11/tree/master)
+[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/ShadowsocksR-Live/ssr2heroku/tree/master)
 
 
 ## config.json
