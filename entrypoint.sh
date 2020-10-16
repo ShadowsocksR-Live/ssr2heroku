@@ -1,5 +1,6 @@
+#!/bin/bash
 
-cat > /ssrbin/config.json <<EOF
+cat > ./config.json <<EOF
 {
     "password": "${PASSWORD}",
     "method": "aes-128-ctr",
@@ -34,4 +35,4 @@ cat > /ssrbin/config.json <<EOF
 }
 EOF
 
-/ssrbin/ssr-server
+./ssr-server
