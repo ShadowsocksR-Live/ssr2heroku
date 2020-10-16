@@ -7,6 +7,8 @@
 
 * config.json
 
+装完以后，将 `${PASSWORD}` 和两个 `${APP_SITE}` 和 `${UUID}` 替换成你的值就可以用于客户端了。
+
 ```
 {
     "password": "${PASSWORD}",
