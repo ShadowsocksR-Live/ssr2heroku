@@ -34,6 +34,4 @@ cat > /ssrbin/config.json <<EOF
 }
 EOF
 
-cat /ssrbin/config.json
-
 /ssrbin/ssr-server
