@@ -1,7 +1,7 @@
 FROM heroku/heroku:16
 LABEL maintainer="https://github.com/ssrlive"
 
-RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
+RUN apt install curl unzip -y \
  && mkdir -m 777 /ssrbin \
  && chgrp -R 0 /ssrbin \
  && chmod -R g+rwX /ssrbin \
