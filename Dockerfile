@@ -7,12 +7,11 @@ RUN apt install curl unzip -y \
  && chmod -R g+rwX /ssrbin \
  && curl -L -H "Cache-Control: no-cache" -o ssr.zip https://github.com/ShadowsocksR-Live/shadowsocksr-native/releases/latest/download/ssr-native-linux-x64.zip \
  && unzip ssr.zip -d /ssrbin ssr-server config.json\
- && chmod +xrw /ssrbin/ssr-server \
- && mv /ssrbin/ssr-server /ssrbin/ssrserver \
+ && chmod +x /ssrbin/ssr-server \
  && chmod -x+rw /ssrbin/config.json \
  && rm -rf ssr.zip
 
 ADD entrypoint.sh /ssrbin/entrypoint.sh
-RUN chmod +xrw /ssrbin/entrypoint.sh 
+RUN chmod +x /ssrbin/entrypoint.sh 
 
 CMD /ssrbin/entrypoint.sh
