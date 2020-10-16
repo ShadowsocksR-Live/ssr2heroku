@@ -1,5 +1,3 @@
-#!/bin/bash
-
 cat > /ssrbin/config.json <<EOF
 {
     "password": "${PASSWORD}",
