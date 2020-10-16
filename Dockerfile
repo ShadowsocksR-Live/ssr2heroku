@@ -1,4 +1,4 @@
-FROM heroku/heroku:16
+FROM heroku/heroku:18
 LABEL maintainer="https://github.com/ssrlive"
 
 RUN apt install curl unzip -y \
