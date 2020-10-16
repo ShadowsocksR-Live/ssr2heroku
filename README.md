@@ -1,15 +1,17 @@
 # SSR2HeroKu
 
-* 快速部署
+## 快速部署
+
+在 heroku 网站上注册账号，登录，一切就绪以后，点下图链接，按照提示就输入各个值，就可以部署在 heroku 的 docker 容器上了。
 
 [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/ssrlive/examples11/tree/master)
 
 
-* config.json
+## config.json
 
-装完以后，将 `${PASSWORD}` 和两个 `${APP_SITE}` 和 `${UUID}` 替换成你的值就可以用于客户端了。
+部署完毕，将以下文件中的 `${PASSWORD}` 和两个 `${APP_SITE}` 和 `${UUID}` 替换成你的值就可以用于客户端了。
 
-```
+```json
 {
     "password": "${PASSWORD}",
     "method": "aes-128-ctr",
