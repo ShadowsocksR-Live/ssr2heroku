@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM heroku/heroku:16
 LABEL maintainer="https://github.com/ssrlive"
 
 RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
