@@ -4,7 +4,7 @@
   "keywords": ["node","js","Docker"],
   "env": {
     "APP_SITE": {
-      "description": "App 站点名称，格式如下示范值。请一定填写正确，不能啥都不填，因为示范值 YourAppName 是无效的。",
+      "description": "App 站点名称，格式如下示范值。请一定与上面的 App name 完全一致填写，不能啥都不填，因为示范值 YourAppName 是无效的。",
       "value": "YourAppName.herokuapp.com"
     },
 
