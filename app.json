@@ -1,0 +1,14 @@
+{
+  "name": "sample",
+  "description": "deploy sample to Heroku.",
+  "keywords": ["node","js","Docker"],
+  "env": {
+    "UUID": {
+      "description": "ID, 请使用 uuidgenerator.net 生成一个新的 ID 替换当前这个",
+      "value": "65f11be5-ac71-4f0c-874b-d93c610c66ef"
+    }
+  },
+  "website": "https://github.com/ssrlive/examples11",
+  "repository": "https://github.com/ssrlive/examples11",
+  "stack": "container"
+}
