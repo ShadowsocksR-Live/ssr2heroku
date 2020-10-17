@@ -6,8 +6,11 @@
 
 [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/ShadowsocksR-Live/ssr2heroku/tree/main)
 
+## 客户端下载地址
 
-## config.json
+https://github.com/ShadowsocksR-Live/shadowsocksr-native/releases/latest
+
+## 客户端配置文件 config.json
 
 部署完毕，将以下文件中的 `${PASSWORD}` 和两个 `${APP_SITE}` 和 `${SECRET_PATH}` 替换成你的值就可以用于客户端了。
 
