@@ -1,5 +1,3 @@
-rm -rf /v2raybin/config.json
-
 cat > /v2raybin/config.json <<EOF
 {
     "log": {
