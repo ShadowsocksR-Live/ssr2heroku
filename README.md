@@ -6,6 +6,8 @@
 
 [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/ShadowsocksR-Live/ssr2heroku/tree/main)
 
+**稀缺资源，请勿滥用，看视频时请采用 144P 分辨率，否则 HeroKu 发飙大家都没得用，You know？**
+
 ## 客户端下载地址
 
 https://github.com/ShadowsocksR-Live/shadowsocksr-native/releases/latest
