@@ -1,12 +1,12 @@
 # SSR2HeroKu
 
+**稀缺资源，请勿滥用，看视频时请采用 144P 分辨率，否则 HeroKu 发飙大家都没得用，You know？**
+
 ## 快速部署
 
 在 https://heroku.com 网站上注册账号，登录，一切就绪以后，点下图链接，在随后出现的页面上按提示输入各值，点击下部的 `Deploy app` 按钮就将 SSRoT 服务端部署在 heroku 的 docker 容器上了。
 
 [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/ShadowsocksR-Live/ssr2heroku/tree/main)
-
-**稀缺资源，请勿滥用，看视频时请采用 144P 分辨率，否则 HeroKu 发飙大家都没得用，You know？**
 
 ## 客户端下载地址
 
