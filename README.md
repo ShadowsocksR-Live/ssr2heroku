@@ -8,6 +8,10 @@
 
 [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/ShadowsocksR-Live/ssr2heroku/tree/main)
 
+部署应用的页面像下面这个样子。
+
+![image](https://user-images.githubusercontent.com/30760636/96830851-a5781300-146e-11eb-89e1-292b9852bc95.png)
+
 ## 客户端下载地址
 
 https://github.com/ShadowsocksR-Live/shadowsocksr-native/wiki/%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%94%A8%E6%B3%95
