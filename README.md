@@ -10,7 +10,7 @@
 
 部署应用的页面像下面这个样子。
 
-![image](https://user-images.githubusercontent.com/30760636/96830851-a5781300-146e-11eb-89e1-292b9852bc95.png)
+![image](https://user-images.githubusercontent.com/30760636/96831486-bffebc00-146f-11eb-852e-9705b5866eb1.png)
 
 ## 客户端下载地址
 
