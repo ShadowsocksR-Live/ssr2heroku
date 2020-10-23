@@ -4,7 +4,7 @@
 
 ## 快速部署
 
-在 https://heroku.com 网站上注册账号，登录，准备就绪后，点击下列 `Deploy to Heroku` 按钮链接。
+在 https://heroku.com 网站上注册账号，登录，准备就绪后，点击这个 `Deploy to Heroku` 按钮链接。
 
 [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/ShadowsocksR-Live/ssr2heroku/tree/main)
 
