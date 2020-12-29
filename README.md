@@ -36,11 +36,6 @@ https://github.com/ShadowsocksR-Live/shadowsocksr-native/wiki/%E5%AE%A2%E6%88%B7
     "connect_timeout": 6,
     "udp_timeout": 6,
 
-    "server_settings": {
-        "listen_address": "0.0.0.0",
-        "listen_port": 80
-    },
-
     "client_settings": {
         "server": "${APP_SITE}",
         "server_port": 443,
@@ -59,6 +54,6 @@ https://github.com/ShadowsocksR-Live/shadowsocksr-native/wiki/%E5%AE%A2%E6%88%B7
 
 在具体应用页面，点击 `More` -> `Run console` 可以打开一个简易控制台窗口，通过该窗口输入命令
 ```bash
-echo password=${PASSWORD}, port=${PORT}, path=${SECRET_PATH}, site=${APP_SITE}
+echo password=${PASSWORD}, path=${SECRET_PATH}, site=${APP_SITE}
 ```
-找回关键参数时，会发现 PORT 值会随机变化，其它的就是你的预设值，不会变。
+找回关键参数时，会发现它們就是你的预设值。
