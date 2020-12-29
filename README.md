@@ -52,7 +52,7 @@ https://github.com/ShadowsocksR-Live/shadowsocksr-native/wiki/%E5%AE%A2%E6%88%B7
 }
 ```
 
-在具体应用页面，点击 `More` -> `Run console` 可以打开一个简易控制台窗口，通过该窗口输入命令
+另外，在具体应用页面，点击 `More` -> `Run console` 可以打开一个简易控制台窗口，通过该窗口输入命令
 ```bash
 echo password=${PASSWORD}, path=${SECRET_PATH}, site=${APP_SITE}
 ```
