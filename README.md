@@ -2,6 +2,8 @@
 
 **稀缺资源，请勿滥用，日常使用中观看视频时请采用 144P 分辨率，否则一旦 Heroku 发飙大家都没得用，You know？**
 
+**GFW 已經墻掉了 \[your app name\].herokuapp.com 類型的網址，所以本文不再有效，你得綁定自己的域名到 heroku 才用得起來。**
+
 ## 快速部署
 
 在 https://heroku.com 网站上注册账号，登录，准备就绪后，点击这个 `Deploy to Heroku` 按钮链接。
