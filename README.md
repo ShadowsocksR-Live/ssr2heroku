@@ -4,6 +4,24 @@
 
 **GFW 會隨機墻掉 \[your app name\].herokuapp.com 類型的網址，所以你可能得隨時以新名稱部署新應用並刪掉舊應用，或者綁定自己的域名到 heroku 才能再次用得起來。**
 
+最後更新：
+
+經過測試，GFW 已經 牆掉 所有 \[your app name\].herokuapp.com 網址，因此，本項目(SSR2HeroKu)在中國大陸已不再可用，本項目宣告死亡，不再更新。R.I.P.
+```
+C:>tracert mygoodsite.herokuapp.com
+
+Tracing route to mygoodsite.herokuapp.com [123.45.67.89]
+over a maximum of 30 hops:
+
+  1     4 ms     4 ms     6 ms  192.168.24.1
+  2     *        *        *     Request timed out.
+...
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+```
+
 ## 快速部署
 
 在 https://heroku.com 网站上注册账号，登录，准备就绪后，点击这个 `Deploy to Heroku` 按钮链接。
