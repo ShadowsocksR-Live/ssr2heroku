@@ -1,7 +1,5 @@
 # SSR2HeroKu
 
-稀缺资源，请勿滥用，日常使用中观看视频时请采用 144P 分辨率，否则一旦 Heroku 发飙大家都没得用，You know？
-
 最後更新：
 
 **經過測試，GFW 已經 牆掉 所有 \[your app name\].herokuapp.com 網址，因此，本項目(SSR2HeroKu)在中國大陸已不再可用，本項目宣告死亡，不再更新。R.I.P.**
